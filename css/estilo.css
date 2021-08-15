@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+*{
+	font-family: century gothic;
+	margin: 0;
+	text-align: center;
+}
+.titulo1{
+	color: #c7a363;
+	font-size: 40px;
+}
+.subtitulo{
+	color: #c7a363;
+	font-size: 35px;
+}
+hr{
+	margin-top: 2px;
+	margin-bottom: 4px;
+	border-color: #c7a363;
+}
+h1{
+	color: #c99b49;
+	font-size: 60px;
+}
+body{
+	background-color: #121214;
+}
+.geral{
+	width: 80%;
+	margin: 0 auto;
+}
+.topo{
+	height:400px;
+	width: auto;
+	background-image:url(../img/header.png);
+	background-size:100% 100%;
+	margin: 0 auto;
+}
+.article1{
+	width: 33%;
+	height: 1000px;
+	border-radius: 6px;
+	float: left;
+	margin-right: 5px;
+	background-color: rgba(55, 55, 77,0.2);
+}
+.article1 p{
+	color:#C0BB93;
+	font-size: 14px;
+	text-indent: 15px;
+	margin-left: 6px;
+	padding:2px;
+	text-align: left;
+}
+.article2{
+	width: 33%;
+	margin-right: 5px;
+	height: 1000px;
+	border-radius: 6px;
+	float: left;
+	background-color: rgba(55, 55, 77,0.2);
+}
+.article2 p{
+	color:#C0BB93;
+	font-size: 14px;
+	text-indent: 15px;
+	margin-left: 6px;
+	padding:2px;
+	text-align: left;
+}
+.article3{
+	width: 33%;
+	height: 1000px;
+	border-radius: 6px;
+	float: left;
+  background-color: rgba(55, 55, 77,0.2);
+}
+.article3 p{
+	color:#C0BB93;
+	font-size: 14px;
+	text-indent: 15px;
+	margin-left: 6px;
+	padding:2px;
+	text-align: left;
+}
+.imagem img{
+	width: 300px;
+	margin-top: 20px;
+	height: auto;
+
+}
+.imagem2 img{
+	width: 300px;
+	height: auto;
+	margin-top: 20px;
+}
+.imagem3 img{
+	width: 300px;
+	height: auto;
+	margin-top: 40px;
+}
+.rodape{
+	width: 100%;
+	height: 40px;
+	background-color: #292930;
+	color: #fff;
+	border-radius: 6px;
+	line-height:40px;
+	float:none;
+	clear:both;
+}
+address{
+	color: #C0BB93;
+}
+.menu{
+	height: 45px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color:#292930;
+	width:auto;
+	border-radius: 10px;
+}
+.menu ul{
+	list-style-type:none;
+	padding:0;
+	line-height:1;
+}
+.menu ul li{
+	text-align:center;
+	display:inline-block;
+}
+.menu ul li a{
+	display:block;
+	color:#c9c38f;
+	text-decoration:none;
+	padding: 15px 25px;
+	text-transform:uppercase;
+}
+.menu ul li a:hover{
+	color:#c99b49;
+	background-color:rgba(212, 201, 112,0.2);
+}
